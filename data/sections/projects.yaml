@@ -42,7 +42,7 @@ projects:
   logo: assets/images/sections/projects/website.jpg
   role: Developer
   timeline: "November 2020 - Present"
-  repo: 
+  repo: https://github.com/henrykroeger/henrykroeger.com
   summary: Personal website to highlight my professional and academic experience.
   tags: ["personal"]
 
