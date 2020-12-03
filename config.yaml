@@ -1,4 +1,4 @@
-baseURL: https://henrykroeger.github.io/
+baseURL: https://henrykroeger.com/
 
 languageCode: en-us
 title: "Henry Kroeger"
@@ -34,8 +34,7 @@ params:
 
 
   # GitHub repo URL of your site
-  # TODO
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/henrykroeger/henrykroeger.com
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: false
