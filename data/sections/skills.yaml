@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+
+- name: Verilog
+  icon: "assets/images/sections/skills/verilog.png"
+  summary: "Experienced in developing for FPGAs and writing testbenches using Verilog"
+  url: "https://en.wikipedia.org/wiki/SystemVerilog"
+
+- name: C++
+  icon: "assets/images/sections/skills/c++.png"
+  summary: "Proficient in the development of large projects using C++."
+  url: "https://en.wikipedia.org/wiki/C%2B%2B"
+
+- name: C
+  icon: "assets/images/sections/skills/c.png"
+  summary: "Experienced in writing low-level routines and modules for hardware using C."
+  url: https://en.wikipedia.org/wiki/C_(programming_language)
+
+- name: Python
+  icon: "assets/images/sections/skills/python.png"
+  summary: "Knowledgeable about writing Python scripts and command line utilities."
+  url: "https://www.python.org/"
+
+- name: MATLAB
+  icon: "assets/images/sections/skills/matlab.gif"
+  summary: "Experienced in using MATLAB to analyze data and implement basic machine learning models."
+  url: "https://www.mathworks.com/products/matlab.html"
+
+- name: Linux
+  icon: "assets/images/sections/skills/linux.png"
+  summary: "Solid understanding of the design and maintenance of Linux systems. User of REHL, Arch, and Gentoo distributions."
+  

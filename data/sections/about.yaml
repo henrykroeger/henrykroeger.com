@@ -1,0 +1,66 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Computer Engineering Student
+# your company information
+company:
+  name: USC
+  url: "https://www.usc.edu"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "assets/files/henry_kroeger_resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate computer engineer with 3 years of experience. I designed systems for neural-computer interfaces at the [USC Integrated Medical Electronics Lab](https://imedelab.org/). In my free time, I make patches and themes for Linux software.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "hkroeger@usc.edu"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/henry-kroeger/"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/henrykroeger"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leader
+  percentage: 85
+  color: blue
+- name: Problem Solver
+  percentage: 85
+  color: yellow
+- name: Communicator
+  percentage: 85
+  color: pink
+- name: Hard Worker
+  percentage: 85
+  color: green
+- name: Learner
+  percentage: 85
+  color: sky
+- name: Team Player
+  percentage: 85
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"

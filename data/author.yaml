@@ -1,0 +1,18 @@
+# some information about you
+name: "Henry Kroeger"
+nickname: "Henry"
+image: "assets/images/author/avatar.png"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hey, I'm"
+
+# give your contact information. they will be used in the footer
+contactInfo:
+  email: "hkroeger@usc.edu"
+  # phone:
+
+# a summary of what you do
+summary:
+- I'm a developer.
+- I'm a creator.
+- I'm a designer.
