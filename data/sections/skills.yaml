@@ -39,5 +39,6 @@ skills:
 
 - name: Linux
   icon: "assets/images/sections/skills/linux.png"
-  summary: "Solid understanding of the design and maintenance of Linux systems. User of REHL, Arch, and Gentoo distributions."
+  summary: "Solid understanding of the design and maintenance of Linux systems. User of RHEL, Arch, and Gentoo distributions."
+  url: "https://en.wikipedia.org/wiki/Linux"
   
