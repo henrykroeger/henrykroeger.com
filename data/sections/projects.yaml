@@ -50,6 +50,7 @@ projects:
   logo: assets/images/sections/projects/riot.png
   role: Co-developer
   timeline: November 2019 - December 2019
+  url: https://www.riot-os.org/
   summary: IoT system to determine overhead light usage in an office. Built with RIOT OS.
   tags: ["academic"]
 
@@ -65,6 +66,6 @@ projects:
   logo: assets/images/sections/projects/arch.png
   role: Developer
   timeline: December 2019 - Present
-  repo:
+  repo: https://github.com/henrykroeger/dotfiles
   summary: Collection of dotfiles and patches for my Arch Linux setup.
   tags: ["personal"]
