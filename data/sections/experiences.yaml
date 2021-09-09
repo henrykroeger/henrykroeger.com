@@ -24,8 +24,8 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
     - Resurrected a dormant FinTech startup that uses a natural language processing engine built in Java to predict the price movements of more than 3,500 stocks and cryptocurrencies using Twitter data.
-- Built tools in Java to collect and process data from 2.5M cryptocurrency-related tweets per month before storing the aggregated results in a MySQL database.
-- Managed the refactoring and deployment of a large-scale Java application, PHP back-end, and web front-end.
+    - Built tools in Java to collect and process data from 2.5M cryptocurrency-related tweets per month before storing the aggregated results in a MySQL database.
+    - Managed the refactoring and deployment of a large-scale Java application, PHP back-end, and web front-end.
 
     
 - company:
