@@ -15,7 +15,7 @@ company:
   url: "https://www.usc.edu"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "assets/files/henry_kroeger_resume.pdf"
+resume: "assets/files/Henry_Kroeger_Resume_Software_Clearance.pdf"
 
 # a summary about you
 summary: 'I am a passionate software engineer with 3 years of experience. Professionally, I have developed financial services software for Market Prophit, written flight software for Northrop Grumman, and designed systems for neural-computer interfaces at the [USC Integrated Medical Electronics Lab](https://imedelab.org/). In my free time, I make patches and themes for Linux software.'
