@@ -11,22 +11,56 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Market Prophit
+    url: "https://marketprophit.com/"
+    location: Los Angeles, CA
+    # company overview
+    overview: Market Prophit is a financial technology startup that creates actionable insights for retail investors using social media signals.
+  positions:
+  - designation: Lead Software Engineer
+    start: May 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end:
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Resurrected a dormant FinTech startup that uses a natural language processing engine built in Java to predict the price movements of more than 3,500 stocks and cryptocurrencies using Twitter data.
+- Built tools in Java to collect and process data from 2.5M cryptocurrency-related tweets per month before storing the aggregated results in a MySQL database.
+- Managed the refactoring and deployment of a large-scale Java application, PHP back-end, and web front-end.
+
+    
+- company:
+    name: Northrop Grumman
+    url: "https://www.northropgrumman.com/"
+    location: Redondo Beach, CA
+    # company overview
+    overview: Northrop Grumman is an American aerospace and defense contractor. I worked in Space Park on satellite flight software.
+  positions:
+  - designation: Software Engineering Intern
+    start: Jun 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Aug 2021
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Developed a software tool using Python to automatically generate verbose documentation for over 2,000 flight commands, saving verification engineers 30 hours of documentation editing per release.
+    - Programmed data verification tools using Python to automate the processing of 2.3M memory locations dumped from the spacecraft computer, reducing the number of memory locations that needed manual review by up to 100%.
+    - Created flight software tests that led to the discovery of a critical memory error in the spacecraft computer.
+    
+- company:
     name: USC Integrated Medical Electronics Lab (IMedE)
     url: "https://imedelab.org/"
     location: Los Angeles, CA
     # company overview
     overview: IMedE develops fundamental advances for the miniaturization of medical devices by integrating concepts from physics, biology and medicine into the design of integrated circuits and systems.
   positions:
-  - designation: Undergraduate Research Fellow
+  - designation: Research Engineer
     start: Oct 2018
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     end: May 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design, develop, and test a universal backend for neural-computer interfaces.
-    - Design a multilayered PCB to amplify, aggregate, and digitize neural signals.
-    - Assist in the design and test of an FPGA to control neural-recording microchips.
-    - Build a custom Arduino-based test suite to verify interface operation.
+    - Led a team of 3 undergraduates to design, build, and test a universal backend system for commercial and in-house brain-computer interfaces.
+    - Built a custom test suite in C to verify the operation of the brain-computer interface and simulate neural signals.
+    - Contributed to the programming of a FPGA using Verilog to control neural recording microchips and process digitized neural impulses from an array of 32 electrodes.
 
   # can have multiple designations per company
   # - designation: Junior Software Engineer
@@ -41,7 +75,7 @@ experiences:
     name: Number Project
     url: "http://numberproject.com/"
     location: Chicago, IL
-    overview: Number Project works with brands to help them create transformational moments that connect them to the people they value most in person and online.
+    overview: Number Project works with brands to help them create transformational moments that connect them to the people they value most in-person and online.
   positions:
   - designation: Intern
     start: June 2018
