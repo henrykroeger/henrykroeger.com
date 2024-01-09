@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import { persona } from "../persona";
+const fullName = persona.firstName + " " + persona.secondName;
+---
+
+<Layout title={fullName} desc={persona.description}>
+  <Header title="page not found" description="" />
+</Layout>
