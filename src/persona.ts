@@ -23,5 +23,9 @@ export const persona = {
       title: "linkedin",
       url: "https://www.linkedin.com/in/henry-kroeger/",
     },
+    {
+      title: "github",
+      url: "https://github.com/henrykroeger",
+    },
   ],
 };
