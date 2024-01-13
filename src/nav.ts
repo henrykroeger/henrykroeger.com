@@ -1,10 +1,10 @@
 export const nav = [
-    {
-      title: "~/",
-      url: "/",
-    },
-    {
-        title: "now",
-        url: "/now",
-    },
-  ]
+  {
+    title: "~/",
+    url: "/",
+  },
+  {
+    title: "now",
+    url: "/now",
+  },
+];

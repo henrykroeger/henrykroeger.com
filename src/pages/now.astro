@@ -11,8 +11,16 @@ import InlineLink from "../components/InlineLink.astro";
   <Header title="Now" description="What I'm up to now. Updated 1/12/23." />
   <Section>
     <SectionTitle title="About" />
-        <p class="text-base text-l/secondary dark:text-d/secondary">This is a <InlineLink text="now page" url="https://nownownow.com/about" target="_blank" />.</p>
+    <p class="text-base text-l/secondary dark:text-d/secondary">
+      This is a <InlineLink
+        text="now page"
+        url="https://nownownow.com/about"
+        target="_blank"
+      />.
+    </p>
     <SectionTitle title="Life" />
-    <Story story="Living in SF. Training for a half Ironman. Learning about frontend development." />
+    <Story
+      story="Living in SF. Training for a half Ironman. Learning about frontend development."
+    />
   </Section>
 </Layout>
