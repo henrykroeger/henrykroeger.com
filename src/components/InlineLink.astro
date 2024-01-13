@@ -1,0 +1,10 @@
+---
+interface Props {
+    text: string;
+    url: string;
+    target?: string;
+}
+
+const { text, url, target } = Astro.props
+---
+<a href={url} target={target ?? "_self"} class="group focus-visible:bg-l/primary dark:focus-visible:bg-d/primary focus-visible:text-l/primary dark:focus-visible:text-d/primary outline-none focus-visible:after:text-l/primary dark:focus-visible:after:text-d/primary hover:bg-l/primary dark:hover:bg-d/primary hover:text-l/primary dark:hover:text-d/primary hover:after:text-l/primary dark:hover:after:text-d/primary"><span class="text-l/secondary dark:text-d/secondary group-focus-visible:text-d/primary dark:group-focus-visible:text-l/primary group-hover:text-d/primary dark:group-hover:text-l/primary">{text}</span></a>

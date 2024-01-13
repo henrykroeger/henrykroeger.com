@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Story from "../components/Story.astro";
+import Section from "../components/Section.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+import InlineLink from "../components/InlineLink.astro";
+---
+
+<Layout title="Now" desc="What I'm up to now.">
+  <Header title="Now" description="What I'm up to now. Updated 1/12/23." />
+  <Section>
+    <SectionTitle title="About" />
+        <p class="text-base text-l/secondary dark:text-d/secondary">This is a <InlineLink text="now page" url="https://nownownow.com/about" target="_blank" />.</p>
+    <SectionTitle title="Life" />
+    <Story story="Living in SF. Training for a half Ironman. Learning about frontend development." />
+  </Section>
+</Layout>
